@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" media="all" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=11, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">	
+		<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>		
+		<script type="text/javascript" src="./js/move-top.js"></script>
+		<script type="text/javascript" src="./js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<title>翻滚吧阿斗-设计/前端/游戏</title>
+	</head>
+	<body>
+		<!--cover-->
+		<div id="cover">
+			<div class="container">
+				<div class="cover-info">
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="container c_ffffff">
+								<h1>翻滚吧阿斗</h1>
+								<h4>UI设计 · 前端开发 · 游戏制作</h4>
+								<div class="space10"></div>
+								<h4>Email:282166412@qq.com</h4>
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<div class="covergird">
+								<img src="img/cimg3.png">
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<a class="covergird txtc bc_f5e19c scroll" href="#about">
+								<p class="em48">about</p>
+							</a>
+						</div>
+					</div>
+					<div class="space50"></div>
+					<div class="row">
+						<div class="col-xs-3">
+							<a class="covergird txtc bc_e9ddcd scroll" href="#project">
+								<p class="em48">project</p>
+							</a>
+						</div>
+						<div class="col-xs-3">
+							<img src="img/cimg1.png">
+						</div>
+						<div class="col-xs-3">
+							<a class="covergird txtc bc_e86e3b scroll" href="#skill">
+								<p class="em48">Skill</p>
+							</a>
+						</div>
+						<div class="col-xs-3">
+							<img src="img/cimg2.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="space50"></div>
+			<div class="container">
+			<a class="scroll txtc em24" href="#skill"><i class="glyphicon glyphicon-chevron-down c_ffffff"></i></a>
+			</div>
+		</div>
+		<!--cover end-->
+		<!--skill-->
+		<div id="skill">
+			<!--disign-->
+			<div class="container">
+			<h2 class="c_ffffff">Graphic Disign:</h2>
+			<div class="space10"></div>
+			<div class="row">
+				<div class="col-xs-4">
+					<h3 class="c_ffffff">Photoshop</h3>
+				</div>
+				<div class="col-xs-8">
+					<div class="content-bar">
+						<div style="width:90%;">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					<h3 class="c_ffffff">Illustrator</h3>
+				</div>
+				<div class="col-xs-8">
+					<div class="content-bar">
+						<div style="width:75%;">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					<h3 class="c_ffffff">Indisign</h3>
+				</div>
+				<div class="col-xs-8">
+					<div class="content-bar">
+						<div style="width:70%;">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					<h3 class="c_ffffff">CorelDraw</h3>
+				</div>
+				<div class="col-xs-8">
+					<div class="content-bar">
+						<div style="width:85%;">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					<h3 class="c_ffffff">AutoCAD</h3>
+				</div>
+				<div class="col-xs-8">
+					<div class="content-bar">
+						<div style="width:70%;">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					<h3 class="c_ffffff">Axure</h3>
+				</div>
+				<div class="col-xs-8">
+					<div class="content-bar">
+						<div style="width:80%;">
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>	
+			<div class="space50"></div>
+			<div class="container">
+			<a class="scroll txtc em24" href="#skill-code"><i class="glyphicon glyphicon-chevron-down c_ffffff"></i></a>
+			</div>			
+		</div>
+		<!--skill end-->
+		<!--skill-code-->
+		<script src="js/plugins.js"></script> 
+		<script src="js/script.js"></script> 
+		<div id="skill-code"">
+			<div class="container">
+			<h2 class="c_ffffff">Web Code:</h2>
+			<div class="row">
+				<div class="col-xs-4">
+					<div class="container">
+						<div class="chart" data-percent="70" data-bar-color="#e86e3b" data-animate="3000">
+					<!-- chart-content --> 
+					<div class="chart-content c_888888">
+						<div class="percent"></div>
+						<div class="chart-title em36">HTML5</div>
+						</div>						
+					<canvas height="178" width="178">
+					</canvas>
+					</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="chart" data-percent="60" data-bar-color="#e86e3b" data-animate="3000">
+					<!-- chart-content --> 
+					<div class="chart-content c_888888">
+						<div class="percent"></div>
+						<div class="chart-title em36">CSS3</div>
+						</div>						
+					<canvas height="178" width="178">
+					</canvas>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="chart" data-percent="50" data-bar-color="#e86e3b" data-animate="3000">
+					<!-- chart-content --> 
+					<div class="chart-content c_888888">
+						<div class="percent"></div>
+						<div class="chart-title em36">JS</div>
+						</div>						
+					<canvas height="178" width="178">
+					</canvas>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					<div class="container">
+						<div class="chart" data-percent="35" data-bar-color="#e86e3b" data-animate="3000">
+					<!-- chart-content --> 
+					<div class="chart-content c_888888">
+						<div class="percent"></div>
+						<div class="chart-title em36">PHP</div>
+						</div>						
+					<canvas height="178" width="178">
+					</canvas>
+					</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="chart" data-percent="5" data-bar-color="#e86e3b" data-animate="3000">
+					<!-- chart-content --> 
+					<div class="chart-content c_888888">
+						<div class="percent"></div>
+						<div class="chart-title em36">Python</div>
+						</div>						
+					<canvas height="178" width="178">
+					</canvas>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="chart" data-percent="10" data-bar-color="#e86e3b" data-animate="3000">
+					<!-- chart-content --> 
+					<div class="chart-content c_888888">
+						<div class="percent"></div>
+						<div class="chart-title em36">Java</div>
+						</div>						
+					<canvas height="178" width="178">
+					</canvas>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="space50"></div>
+			<div class="container">
+			<a class="scroll txtc em24" href="#skill-hobby"><i class="glyphicon glyphicon-chevron-down c_ffffff"></i></a>
+			</div>
+		</div>
+		<!--skill-code end-->
+		<!--skill-hobby-->
+		<div id="skill-hobby">
+			<div class="container clear">
+			<h2 class="c_ffffff">Hobby:</h2>
+			<div class="space20"></div>
+			<a href="#">3DS MAX</a>
+			<a href="#">C4D</a>
+			<a href="#">Flash</a>
+			<a href="#">AE</a>
+			<a href="#">Audition</a>
+			<a href="#">UDK</a>
+			<a href="#">Unity3D</a>
+			<a href="#">Cocos2d</a>
+			<a href="#">橙光</a>
+			<a href="#">仙剑</a>
+			<a href="#">古剑</a>
+			<a href="#">LOL</a>
+			<a href="#">伊苏</a>
+			<a href="#">剑三</a>
+			<a href="#">乌克丽丽</a>
+			<a href="#">素描</a>
+			<a href="#">摄影</a>
+			<a href="#">涂鸦</a>
+			<a href="#">漫画</a>
+			<a href="#">水彩</a>
+			<a href="#">哈士奇</a>
+			<a href="#">秋田</a>
+			<a href="#">金毛</a>
+			<a href="#">雪纳瑞</a>
+			<a href="#">布偶猫</a>
+			<a href="#">狸花猫</a>
+			<a href="#">金丝熊</a>
+			<a href="#">布丁仓鼠</a>
+			<a href="#">龙猫</a>
+			<a href="#">荷兰猪</a>
+			<a href="#">安格鲁</a>
+			<a href="#">钢琴</a>
+			<a href="#">轮滑</a>
+			<a href="#">未知</a>
+			<a href="#">小说</a>
+			<a href="#">基腐宅</a>
+			<a href="#">吃</a>
+			<a href="#">大阪</a>
+			<a href="#">纽约</a>
+			<a href="#">游泳</a>
+			<a href="#">射箭</a>
+			<a href="#">发呆</a>
+			<a href="#">爬山</a>
+			<a href="#">散步</a>
+			<a href="#">智能系统</a>
+			<a href="#">幻想</a>
+			<a href="#">卫斯理</a>
+			<a href="#">HP</a>
+			<a href="#">盗墓笔记</a>
+			<a href="#">心理</a>
+			<a href="#">手办</a>
+			<a href="#">英语</a>
+			<a href="#">粤语</a>
+			<a href="#">法语</a>
+			<a href="#">日语</a>
+			<a href="#">烹饪</a>
+			<a href="#">烘培</a>
+			<a href="#">披萨</a>
+			<a href="#">桂林米粉</a>
+			<a href="#">寿司</a>
+			<a href="#">麻辣香锅</a>
+			<a href="#">炒饭</a>
+			<a href="#">晒太阳</a>
+			<a href="#">糯米酒</a>
+			<a href="#">清酒</a>
+			<a href="#">红酒</a>
+			<a href="#">青梅酒</a>
+			<a href="#">陶艺</a>
+			<a href="#">折纸</a>
+			<a href="#">刻章</a>
+			<a href="#">雕塑</a>
+			<a href="#">观察</a>
+			<a href="#">书法</a>
+			<a href="#">音乐</a>
+			<a href="#">电视剧</a>
+			</div>
+			<div class="space50"></div>
+			<div class="container clear">
+			<a class="scroll txtc em24" href="#project" style="border: none;float: none;max-width: 100%;"><i class="glyphicon glyphicon-chevron-down c_ffffff"></i></a>
+			</div>
+		</div>
+		<!--skill-hobby end-->
+		<!--project-->
+		<div id="project">
+			<div class="container">	
+				<!-- 时间轴 -->
+				<ul class="cbp_tmtimeline">					
+					<li>
+						<time class="cbp_tmtime"><span>2015-2-1</span> <span>game</span></time>
+						<div class="cbp_tmicon no320"><i class="glyphicon glyphicon-bookmark"></i></div>
+						<div class="cbp_tmlabel">
+							<h2>科学拯救智商-未完成</h2>
+							<p>这个是去年（13年年底）过年那段时间做的一个文字游戏</p>
+							<p>因为搬家换工作各种琐碎，所以坑掉了</p>
+							<p>虽然隔了已经有一年，工程文件都找不到了，不过还是想完成。</p>
+							<p>最近会开始重新梳理。</p>
+							<p>最迟大概明年五月之前重新上线。</p>
+							<p>最快也要过完年了~立绘啊什么的也要重新制作啊，因为格了硬盘，素材也没了</p>
+							<p>努力不坑，现在回去看那个游戏简直羞耻PLAY啊_(:з」∠)_</p>
+							<p>因为心境不一样了，重新的话感觉也不同了吧。</p>
+							<p><a href="">more……</a></p>
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime"><span>2015-2-1</span> <span>page</span></time>
+						<div class="cbp_tmicon no320"><i class="glyphicon glyphicon-ok"></i></div>
+						<div class="cbp_tmlabel">
+							<h2>个人主页-完成</h2>
+							<p>http://ahdou.info</p>
+							<p>这是一个单页，主要用于展示我的一些信息。</p>
+							<p>由于服务器太贵，所以把网站迁到了Github上。因为还没有学会用Jekyll,现在只能放这种静态页面。</p>
+							<p>博客笔记什么的，写在点点那里了。</p>
+							<p>设计作品，发表在站酷。</p>
+							<p>而代码文件则存放在Github。</p>
+							<p>前端新手，进步中……</p>
+							<p>现在主要工作还是在设计这边。</p>
+							<p>这个页面打算以每半年为期，重新设计编码;每个月会小范围的修整1次，现在这个是第一版Ver1.0</p>
+							<p><a href="http://ahdou.diandian.com/post/2015-02-01/40065">more……</a></p>
+						</div>
+						<div class="space10"></div>
+						<div class="pot txtc"><div class="space5"></div><h2 class="c_a6b7d3">Project:</h2></div>
+					</li>
+				</ul>
+				
+			</div>
+		</div> 
+		<!--project end-->
+		<!--about-->
+		<div id="about">
+			<div class="container">
+				<div class="space10"></div>
+				<div class="space20"></div>
+				<div class="row">
+					<div class="col-xs-2 txtr">
+						<img src="img/mmqrcode_ahdou.png" style="width: 60%;">
+					</div>
+					<div class="col-xs-1 snsbtn">	
+						<script>
+							$(function () {
+  							$('[data-toggle="tooltip"]').tooltip()
+							})
+						</script>
+						<a href="http://weibo.com/241256740" target="_black" data-toggle="tooltip" data-placement="right" title="微博">W</a>
+						<a href="http://www.zcool.com.cn/u/1644829" target="_black" data-toggle="tooltip" data-placement="right" title="站酷">Z</a>
+						<a href="http://ahdou.diandian.com/" target="_black" data-toggle="tooltip" data-placement="right" title="点点">D</a>
+						<a href="https://github.com/ahdou" target="_black" data-toggle="tooltip" data-placement="right" title="Github">G</a>						
+					</div>
+					<div class="col-xs-9 txtr c_888888">
+						<p>Design by 阿斗</p>
+						<p>update:2015年2月1日</p>
+						<p>Copyright © 2011~2015 ahdou.info</p>						
+					</div>
+				</div>
+				<div class="space10"></div>
+			</div>
+		</div>
+		<!--about end-->
+		<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</body>
+</html>
